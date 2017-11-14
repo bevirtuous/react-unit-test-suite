@@ -1,6 +1,6 @@
 {
   "name": "@virtuous/react-unit-test-suite",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A unit test suite configured for testing in an react.js environment.",
   "license": "MIT",
   "repository": {
