@@ -9,21 +9,15 @@ This configuration uses [Jest](https://facebook.github.io/jest/) for running the
 It is only an extension of the default Jest configuration and
 prepares your tests for any React.js application.
 
-## Dependencies
-
-The test suite has two peer dependencies. You need to install `react@^16.0.0` and `react-dom@^16.0.0`
-together with this package. Usually you should have these dependencies already installed in
-your react project.
-
 ## Installation
 
 ```sh
-npm i --save-dev @virtuous/react-unit-test-suite
+npm i --save-dev @virtuous/react-unit-test-suite react react-dom
 ```
 
 ## Usage
 
-All test files should follow the naming convention of `*spec.(js|jsx)`.
+All test files should follow the naming convention of `*(spec|test).(js|jsx)`.
 
 You have two options of how to create a configuration for Jest:
 - You can create your own configuration following the [Jest Documentation](https://facebook.github.io/jest/docs/en/getting-started.html)
