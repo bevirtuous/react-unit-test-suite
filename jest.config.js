@@ -19,6 +19,7 @@ module.exports = {
     '/node_modules/',
     '<rootDir>/dist/',
     '<rootDir>/build/',
+    'jest.config.js',
   ],
   setupTestFrameworkScriptFile: '@virtuous/react-unit-test-suite/config/setup.js',
 };
