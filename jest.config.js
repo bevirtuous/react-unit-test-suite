@@ -9,10 +9,16 @@ module.exports = {
   testPathIgnorePatterns: [
     '<rootDir>/node_modules/',
     '<rootDir>/dist/',
+    '<rootDir>/build/',
   ],
+  coverageDirectory: 'build',
   collectCoverageFrom: [
     '**/*.{js,jsx}',
-    '!**/node_modules/**',
+  ],
+  coveragePathIgnorePatterns: [
+    '/node_modules/',
+    '<rootDir>/dist/',
+    '<rootDir>/build/',
   ],
   setupTestFrameworkScriptFile: '@virtuous/react-unit-test-suite/config/setup.js',
 };
