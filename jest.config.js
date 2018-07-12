@@ -9,16 +9,17 @@ module.exports = {
   testPathIgnorePatterns: [
     '<rootDir>/node_modules/',
     '<rootDir>/dist/',
-    '<rootDir>/build/',
+    '<rootDir>/coverage/',
   ],
-  coverageDirectory: 'build',
+  coverageDirectory: 'coverage',
   collectCoverageFrom: [
     '**/*.{js,jsx}',
+    '!**/*.{spec.js,spec.jsx}',
   ],
   coveragePathIgnorePatterns: [
     '/node_modules/',
     '<rootDir>/dist/',
-    '<rootDir>/build/',
+    '<rootDir>/coverage/',
     'jest.config.js',
   ],
   setupTestFrameworkScriptFile: '@virtuous/react-unit-test-suite/config/setup.js',
