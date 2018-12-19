@@ -3,6 +3,8 @@
 [![GitHub release](https://img.shields.io/github/release/bevirtuous/react-unit-test-suite.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+**THIS REPOSITORY IS NOT MAINTAINED ANYMORE. Its contents have been moved to [https://github.com/bevirtuous/tools](https://github.com/bevirtuous/tools).**
+
 This test suite is a configuration for [ReactJS](https://facebook.github.io/react/) projects.
 
 This configuration uses [Jest](https://facebook.github.io/jest/) for running the tests.
